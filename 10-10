@@ -1,0 +1,14 @@
+Los primeros programas que haremos seran solo programas para poder entendernos con el lenguaje. Un programa en php tiene
+extension .php, a ese programa en php que vamos a hacer se les llama scripts.
+
+Los scripts de php siempre empiezan con "<?php", esto marca el comienzo del codigo php, quiere decir que todo eso hacia abajo
+sera codigo php. Todas las sentencias de php acabn en ;
+
+El comando echo nos muestra la salida del valor de la expresion que pongas a continuacion.
+
+Los string se pueden representar con "" o '' pero existe una diferencia, con las lineas simples los escapados no funcionan.
+
+PHP tiene 2 modos, el modo html y el modo php, en el modo html no interpreta nada, sencillamente lo vuelca todo igual en la
+salida.
+
+En php tambien se pueden crear variables, en PHP todas las variables empiezan por $
