@@ -1,0 +1,17 @@
+En php existen 2 tipos de asignacion, la asignacion por valor que es tan sencillo como $y = 5, por lo tanto la variable $y
+vale 5, $y = 5 y $x = 2, en $y=$x, que seria sencillamente que $y valga lo mismo que $x.
+
+Tambien existe la asignacion por referencia que seguiria la siguiente formula $y=&$x; esto hace que existan la misma variable
+pero que se pueda acceder desde otra variable, es decir ahora tanto $y como $x valdrian lo mismo.
+
+En php hay unas variables que vienen definidas.
+
+TIPOS DE DATOS!!!!!!!!!!!!
+
+Los tipos de datos en php tienen nombre y abreviatura, (boolean, bool), en el caso del booleano solo tendria dos posiciones,
+que serian true y false, estos identificadores no son sensibles a mayusculas y minusculas, pero siempre se escribe en
+minusculas. Existen los mismos operadores que en java, pero tiene una lista de importancia y el OR o || esta el ultimo en
+cuestion de prioridad junto con el and. Los int son iguales que en java y los float.
+
+Las cadenas hay 4 maneras de mostrarlas, con comillas dobles "", con comillas simples '' (que no es recomedable), para
+representar una barra en una cadena seria con dos barras \\
