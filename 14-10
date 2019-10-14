@@ -1,0 +1,18 @@
+Existe un tipo especial de objeto que es el null, tiene un unico valor que es el valor null, en su dia se creo para indicar
+que una variable exsite pero no tiene valor. Para comprobar si algo es null, no estaria bien hacer $x == null, porque no 
+funcionaria, lo suyo es usar el metodo is_null($x) para comprobar si es null o no. Una variable es null si se le ha asignado
+un null, aun no tiene ningun valor o se le ha hecho unset($x).
+
+Cuando tu quieres comprobar algo en php tienes dos tipos de comprobaciones, las de tipo y las de valores. Para comprobar
+el tipo de algo podemos usar la funcion gettype(), para comprobar tipos tambien tenemos una familia de funciones que es
+is_"tipo"(), donde te da true o false depende del tipo y de la variable que le pases. Para comprobar valores tambien tenemos
+el is_numeric(), que te devuelve true o false dependiendo de si lo que le pases es una cadena con forma de numero o un numero.
+Otra familia de funciones para comprobar valores seria el ctype_*(), son muchas funciones para checkear cosas diferentes,
+como el ctype_digit(), en el cual solo te devuelve verdadero si todos los caracteres de la cadena son digitos.
+
+La conversion de tipos se realiza de una manera diferente a la de java, esta es forzada ya que php no necesita tipos de forma
+explicita al iniciar una variable. Cuando en php se evalua un 0 con un booleano ese 0 se convierte en false y cualquier otro
+valor se considera como true. EJ (bool) 0 = false, (bool) " " = false, cualquier otra cosa devolveria true, un null seria falso
+(bool) null = false. Para convertir a integer se hara de manera manual si hiciese falta en la operacion. EJ. 2 + "3" = 5.
+Existen funciones como intval(), floatval(), strval(), boolval(), son funciones que reciben un valor y devuleven ese valor
+convertido a lo que le demos. 
