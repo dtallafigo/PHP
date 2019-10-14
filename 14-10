@@ -16,3 +16,6 @@ valor se considera como true. EJ (bool) 0 = false, (bool) " " = false, cualquier
 (bool) null = false. Para convertir a integer se hara de manera manual si hiciese falta en la operacion. EJ. 2 + "3" = 5.
 Existen funciones como intval(), floatval(), strval(), boolval(), son funciones que reciben un valor y devuleven ese valor
 convertido a lo que le demos. 
+
+Las comparaciones en php se pueden hacer de diferentes maneras, == igual, === identico, != diferente, <> diferente,
+!== no identico.
