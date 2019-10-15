@@ -10,3 +10,38 @@ condicion ?: valor_siFalso.
 Las constantes en php se definen de dos formas diferentes, una con la funcion define('constante',valor); o con 
 la palabra const, const PI = 3,14; Para mirar las constantes que tenemos definidas debemos usar la funcion
 defined('constante')
+
+En php tambien hay bucles, bloques de codigo etc. La principal diferencia del if de java al if de php es que cuando queremos
+poner un if justo cuando acaba un else, se pondria todo junto elseif. El switch es igual que el que ya hemos aprendido en java.
+La iteracion en php son parecidas a las de java, el while se mantiene igual a diferencia de que existen go to en php,
+el do-while, que es igual que el de java tambien, tambien existe el for que es igual que el de java. Estos bucles se usan asi
+porque vienen de c y por lo tanto todos estamos acostumbrados, pero existe otra forma de nomenclatura que seria:
+
+if (condicion):
+  -----------
+  -----------
+elseif:
+  -----------
+  -----------
+endif;
+
+O
+
+switch (condicion):
+  --------------
+  --------------
+endswitch:
+
+O
+
+while (condicion):
+  ------------
+  ------------
+endwhile;
+
+O
+
+for (condicion):
+  -----------
+  -----------
+endfor;
