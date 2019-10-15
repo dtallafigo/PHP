@@ -1,0 +1,12 @@
+Comparaciones
+
+A la hora de comparar un numero con una cadena o dos cadenas, si tiene forma de numero primero se convierte la cadena a numero
+el algoritmo trabajaria de la siguiente manera "si is_numeric($a) && is_numeric($b) $a y $b se convierten a numero y se
+compara numericamente, si no, se usa el orden lexicografico".
+
+Los ternarios en php son practicamente iguales que en java o en javascript, pero existe otra manera de hacerlo que seria,
+condicion ?: valor_siFalso.
+
+Las constantes en php se definen de dos formas diferentes, una con la funcion define('constante',valor); o con 
+la palabra const, const PI = 3,14; Para mirar las constantes que tenemos definidas debemos usar la funcion
+defined('constante')
