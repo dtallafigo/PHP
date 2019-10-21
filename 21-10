@@ -1,0 +1,19 @@
+La diferencia entre los arrays de php y java, es que en php pueden ser de cualquier elemento y de cualquier tamaño en java
+no. En php para crear array lo podemos hacer de varias formas, una de ellas seria array(), otra manera seria sencillamente
+poniendo dos corchete [], la que usaremos de manera normal seria la 2. La manera de acceder por indices y de cambiar elementos
+es la misma, para cambiar $a[1] = "hola", para añadir elementos es tan facil como poner el nombre de la variable con [] = y
+lo que sea, para colocar algo al final del array. La funcion count(), te dice el numero de elementos que tiene un array.
+Para eliminar elementos de un array seria con el unset, EJ, unset($a[5]), cuando se elimina un valor intermedio de un array
+se crea un agujero donde estaba lo que has eliminado, por ejemplo si elimino algo en el indice 2 se crea un hueco en el 
+indice 2 al cual se puede asignar lo que quieras, cuando esto ocurre al indice de un array ya no se le llama indice, se le
+llama claves, porque al no coincidir que estan guardados en orden, ya tenemos clave valor.
+
+Cuando tu añades un elemento a un array lo que haces es guardar un conjunto de valores, tales como su indice y su valor.
+
+Cuando pasa esto y el array tiene agujeros ya no podemos recorrerlo con un for normal porque habria indices vacios, entonces
+es cuando pasamos a usar el for mejorado, foreach ($array as $key => $valor), hasta se puede hacer eliminando la variable $key.
+
+Para convinar 2 arrays lo mejor es usar la function array_mergue().
+
+Para comprobar si un objeto existe en un array se usaria el isset($a[0]), pero el isset si la variable es null, te diria que
+es falso. Lo mejor es usar la funcion array_key_exists($a, key)
