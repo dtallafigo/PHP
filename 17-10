@@ -1,0 +1,25 @@
+La diferencia entre solicitar un archivo con include o hacerlo con require es que require va a dar un error fatal si no encuentra el archivo, mientras que include va a generar un warning. Por ello es más interesante estar seguros y usar require el 99% del tiempo
+
+require_once e include_once: igual, pero llevan la cuenta de si ese archivo ya ha sido incluido alguna vez, y en ese caso, no lo vuelven a incluir. Pero cuidado - si luego un require normal busca el mismo archivo, volverá a incluirlo.
+
+El require_once no lo vamos a utilizar porque sobre todo su utilidad es camuflar dependencias mal construidas.
+
+Los archivos que incluyes pueden devolver un valor
+
+Lo más correcto es ponerle a los archivos que incluyas una ruta, aunque sea simplemente '../archivo' o './archivo'
+
+PERO lo ideal es que uses el __DIR__ para que no importa desde dónde hagas ese require, encuentre el directorio correcto para términos como . o ..
+
+en php s eusa más la # para comentarios que //
+
+---
+
+isset() -> determina si una $var está definida y no es nula
+
+(desde la lógica del PHP, una variable que existe pero es nula es como si no existiera)
+
+empty() -> ¿está vacía la variable (o no existe)? y recuerda, ser nulo en php es no existir. lo mismo con 0, "" y "0"
+
+var_dump($var) -> vuelca la salida de una variable con detalles e info de la variable
+
+print_r() -> Lo mismo pero te pone un poco más claro en algunos casos (como arrays)
