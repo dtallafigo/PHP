@@ -1,0 +1,11 @@
+Las funciones definidas en php por los usuarios, siempre se crea con la palabra clave function, EJ function suma($parametros) {}
+
+A la hora de declarar una funcion, cuando hay valores por defecto en los argumentos deberiamos ponerlos los ultimos, si no 
+nos daria un fallo de estilo.
+
+Cuando queremos separar la definicion de funciones en un archivo a parte tenemos que poner al principio del archivo que va a
+ejecutar esas funciones esto, `require __DIR__ . './ruta.php'`, y donde pone ruta el nombre del archivo donde estan definidas
+las funciones.
+
+En php de un tiempo a esta parte nos deja la posiblidad de meter los tipos de los valores en una funcion tanto los parametros 
+de entrada como los de salida.
