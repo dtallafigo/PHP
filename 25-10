@@ -1,0 +1,10 @@
+Tema 6
+
+SAPI: Server API, un SAPI es el contexto en el que se ejecuta el interprete y tambien define el entorno que establece la 
+interfaz de comunicacion entre el script y el exterior. Existen 3 SAPI, uno de ellos es el CLI(command line interface),
+esto es lo que hemos estado haciendo hasta ahora. El segundo seria el APACHE, con el cual trabajas a nivel de servidor, y el
+tercero seria el CGI(Common Gateway Interface), el cual seria el clasico, el primero de todos. En php tu puedes configurar
+las diferentes versiones para la SAPI que quieras.
+
+Para habilitar o deshabilitar moodulos en PHP se deberia de usar el comando phpemod para darlos de alta o phpdmod para darlos
+de baja, los modulos disponibles estan siempre en /etc/php/vphp/mods-available
