@@ -1,0 +1,9 @@
+SESIONES:
+
+La informacion de la sesion normalmente no sale de la sesion, para ello asociamos la ram del servidor con cada sesion activa
+en el servidor, para diferenciar entre un cliente y otro se usa la variable PHPSESSID. Existe una varibale que se llama 
+$_session  que seria un array al cual podemos acceder obteniendo la clave y el valor de ese array.
+
+La funcion session_start(); crea una nueva sesion o continua la ya existente.
+
+Existe una 2 funcion para tirar la sesion, session_destroy();
